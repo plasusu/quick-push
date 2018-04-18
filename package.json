@@ -1,5 +1,5 @@
 {
-  "name": "quick-push",
+  "name": "quick-github",
   "version": "1.0.0",
   "description": "a tool for pushing code to github quickly",
   "main": "index.js",
