@@ -1,6 +1,6 @@
 {
   "name": "quick-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "命令行工具",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,12 @@
   },
   "author": "plasusu",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "shelljs": "^0.7.6",
     "yargs": "^11.0.0",
-    "babel-cli": "^6.18.0",
+    "babel-cli": "^6.18.0"
+  },
+  "devDependencies": {
     "babel-plugin-add-module-exports": "0.2.1",
     "babel-preset-es2015": "^6.18.0",
     "babel-plugin-transform-runtime": "^6.15.0"
