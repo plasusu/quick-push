@@ -21,6 +21,12 @@ let argv = yargs
         }
         echo('2) 提交成功！！！');
     })
+    .command('sub', '打开项目到sublime', (yargs) => {
+        if (exec(`open -a "Sublime text"`).code !== 0) {
+            exit(1);
+        }
+        echo('成功打开项目！');
+    })
     .argv;
 
 if (!execSome) {
