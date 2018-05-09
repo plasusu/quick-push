@@ -1,7 +1,7 @@
 {
-  "name": "quick-github",
-  "version": "1.0.0",
-  "description": "a tool for pushing code to github quickly",
+  "name": "quick-tool",
+  "version": "1.0.1",
+  "description": "命令行工具",
   "main": "index.js",
   "scripts": {
     "babel": "./node_modules/.bin/babel src -d lib",
