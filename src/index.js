@@ -26,14 +26,14 @@ let argv = yargs
         if (exec(`open -a "Sublime Text" .`).code !== 0) {
             exit(1);
         }
-        echo('成功打开项目！');
+        echo('成功打开sublime！');
     })
-    .command('vs', '打开项目到sublime', (yargs) => {
+    .command('vs', '打开项目到Visual Studio Code', (yargs) => {
         execSome = true;
         if (exec(`open -a "Visual Studio Code" .`).code !== 0) {
             exit(1);
         }
-        echo('成功打开项目！');
+        echo('成功打开Visual Studio Code！');
     })
     .argv;
 
